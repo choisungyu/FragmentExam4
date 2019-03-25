@@ -29,7 +29,7 @@ public class CountDownFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_count_down, container, false);
     }
 
-    // view가 만들어 졌으니깐 여기서 이제 view.~~로 수정하면 됨
+    // view가 만들어 졌으니깐 onViewCreate를 새로 만들어서 view.~~하면서 만들어 나가기
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
