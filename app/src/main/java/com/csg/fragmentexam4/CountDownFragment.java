@@ -37,6 +37,7 @@ public class CountDownFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 mListener.onStartButtonClicked();
+
             }
         });
 
